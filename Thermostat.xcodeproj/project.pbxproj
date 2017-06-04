@@ -11,6 +11,8 @@
 		EB7CD7F21EE4555100F85089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CD7F11EE4555100F85089 /* ViewController.swift */; };
 		EB7CD7F41EE4555100F85089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7CD7F31EE4555100F85089 /* Assets.xcassets */; };
 		EB7CD7F71EE4555100F85089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7CD7F51EE4555100F85089 /* Main.storyboard */; };
+		EB7CD8001EE455FC00F85089 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CD7FE1EE455FC00F85089 /* MainWindowController.swift */; };
+		EB7CD8011EE455FC00F85089 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7CD7FF1EE455FC00F85089 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EB7CD7F31EE4555100F85089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7CD7F61EE4555100F85089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB7CD7F81EE4555100F85089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7CD7FE1EE455FC00F85089 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		EB7CD7FF1EE455FC00F85089 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				EB7CD7F31EE4555100F85089 /* Assets.xcassets */,
 				EB7CD7F51EE4555100F85089 /* Main.storyboard */,
 				EB7CD7F81EE4555100F85089 /* Info.plist */,
+				EB7CD7FE1EE455FC00F85089 /* MainWindowController.swift */,
+				EB7CD7FF1EE455FC00F85089 /* MainWindowController.xib */,
 			);
 			path = Thermostat;
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7CD7F41EE4555100F85089 /* Assets.xcassets in Resources */,
+				EB7CD8011EE455FC00F85089 /* MainWindowController.xib in Resources */,
 				EB7CD7F71EE4555100F85089 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +141,7 @@
 			files = (
 				EB7CD7F21EE4555100F85089 /* ViewController.swift in Sources */,
 				EB7CD7F01EE4555100F85089 /* AppDelegate.swift in Sources */,
+				EB7CD8001EE455FC00F85089 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
